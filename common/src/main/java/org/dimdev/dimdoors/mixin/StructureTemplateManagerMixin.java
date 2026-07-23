@@ -29,7 +29,7 @@ import java.util.function.Consumer;
 import java.util.stream.Stream;
 
 @Mixin(StructureTemplateManager.class)
-public abstract class StructureTemplateManagerMixin { //Revisit enabling in the future.
+public abstract class StructureTemplateManagerMixin {
 	private static final FileToIdConverter SCHEM_LISTER = new FileToIdConverter("structures", ".schem");
 
 	@Shadow
